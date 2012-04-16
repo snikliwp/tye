@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+/****************************************************************************************************/
+/* CSS for navagation format */
+nav {
+	padding-top: 10px;
+	
+}
+
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav li{
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+	display:inline-block;
+	padding: 1em;
+	position:relative;
+	background-color: #36c;
+	background-image: -moz-linear-gradient(#333333,#aa0114);
+	border-radius: 6px;
+	border: 1px solid #036;
+	border-bottom-color: #036;
+	color: #fff;
+	text-decoration:none;
+	text-shadow: -1px -1px 0 rgba(0,51,102,0.6);
+	box-shadow: 0 5px 0 #555;
+	width: 90px;
+	height: 10px;
+		
+}
+nav a:active {
+	top: 2px;
+/*	background-image: -moz-linear-gradient(#25b,#58e);*/
+	background-image: -moz-linear-gradient(#aa0114,#333333);
+	box-shadow:none;
+	border-bottom-color: #036;
+	height: 10px;
+	width: 90px;
+}
+nav a:hover {
+	background-image: -moz-linear-gradient(#aa0114,#333333);
+}
+
+/****************************************************************************************************/
+/* CSS for general Page format */
+html {
+	background-color: #ddd;
+	font: 1.5;
+}
+
+html,
+body {
+	margin: 0; 
+	padding: 0 
+	}
+
+body {
+	height: 700px;
+	width: 900px;
+	margin: 1em auto;
+	background-color: #fff;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+
+}	
+
+
+/****************************************************************************************************/
+/* CSS for logo format */
+
+
+.top-logo {
+	background: url(../images/logo.png) no-repeat left;
+	min-height: 40px;
+}
+
+
+.top-bar {
+	background-image: url(../images/bar.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
