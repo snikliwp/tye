@@ -13,9 +13,14 @@
 include "includes/theme_header.php"
 ?>
 
+ <div id="main">
+ <h3>Home Page - Main</h3>
+ </div>
+ 
+ <div id="right">
+ <h3>Right</h3>
+ </div>
 
-
-<h2>Home Page</h2>
 </body>
 
 <?php

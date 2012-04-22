@@ -18,23 +18,44 @@
 	<script src="js/response.min.js"></script> <!--this is a JavaScript library that gives CSS support for browsers that don't have it Goes up top-->
 	<script src="js/selectivizr-min.js"></script> <!--this is a JavaScript library that gives CSS support for browsers that don't have it Goes up top-->
 <title>Tye Consulting</title>
-font
 </head>
 <body>
 <div class="masthead">
-	<div class="top-banner">
-	<span>Top Banner</span>
-	</div> <!-- end div top-banner -->
+	<div class="top-banner-date">
+	<br>
+		<span><?php  echo date("l, F, d, Y") ?> </span>
+<!--	<a id="contact" href="contact.php" title="contact"><span>Contact</span></a>
+		<a id="go-home" href="index.php" title="go-home"><span>Home</span></a> -->
+	</div> <!-- end div top-banner-date -->
+	
+	<div class="top-banner-home">
+	</div> <!-- end div top-banner-date -->
+	
+	<div class="top-banner-contact">
+	</div> <!-- end div top-banner-date -->
+	
+		<div class="top-banner-phone-sales">
+	</div> <!-- end div top-banner-date -->
+	
+	<div class="top-banner-phone-support">
+	</div> <!-- end div top-banner-date -->
+	
+
+	
+	
+	
+	
+	
 	<div class="top-bar">
 		<img height="1px"src="images/bar.png" alt="Decorative red bar">
 	</div> <!-- end div top-bar -->
 	<div class="top-logo">
 		<div class="top-logo-logo">
-			<img width="90" height="90" src="images/logo.png" alt="Tye Consulting Logo">
+			<img width="90" height="90" src="images/logo.jpg" alt="Tye Consulting Logo">
 		</div><!-- end div top-logo-logo -->
 		<div class="top-logo-slogan">
-			<p>Blow away your competitors</p>
-			<p>With an Amazing Website</p>
+			<h3>Blow away your competitors...</h3>
+			<h3><span>With an Amazing Website</span></h3>
 		</div>  <!-- end div top-logo-slogan -->
 	</div> <!-- end div top-logo -->
 

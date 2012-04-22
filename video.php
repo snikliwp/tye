@@ -13,13 +13,13 @@
 include "includes/theme_header.php"
 ?>
 
-
-
-<h2>Video Page</h2>
-
-
-
-
+ <div id="main">
+ <h3>Video Page - Main</h3>
+ </div>
+ 
+ <div id="right">
+ <h2>Video</h2>
+ </div>
 
 
 

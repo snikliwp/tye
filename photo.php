@@ -13,13 +13,13 @@
 include "includes/theme_header.php"
 ?>
 
-
-
-<h2>Photography Page</h2>
-
-
-
-
+ <div id="main">
+ <h3>Photography Page - Main</h3>
+ </div>
+ 
+ <div id="right">
+ <h2>Photography</h2>
+ </div>
 
 
 

@@ -13,13 +13,13 @@
 include "includes/theme_header.php"
 ?>
 
-
-
-<h2>Flash Page</h2>
-
-
-
-
+ <div id="main">
+ <h3>Flash Page - Main</h3>
+ </div>
+ 
+ <div id="right">
+ <h2>Flash</h2>
+ </div>
 
 
 
