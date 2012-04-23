@@ -22,22 +22,11 @@
 <body>
 <div class="masthead">
 	<div class="top-banner-date">
-	<br>
-		<span><?php  echo date("l, F, d, Y") ?> </span>
-<!--	<a id="contact" href="contact.php" title="contact"><span>Contact</span></a>
-		<a id="go-home" href="index.php" title="go-home"><span>Home</span></a> -->
-	</div> <!-- end div top-banner-date -->
-	
-	<div class="top-banner-home">
-	</div> <!-- end div top-banner-date -->
-	
-	<div class="top-banner-contact">
-	</div> <!-- end div top-banner-date -->
-	
-		<div class="top-banner-phone-sales">
-	</div> <!-- end div top-banner-date -->
-	
-	<div class="top-banner-phone-support">
+		<span id="date"><?php  echo date("l, F, d, Y") ?> </span>
+		<a id="go-home" href="index.php" title="go-home"><span>Home</span></a> 
+		<a id="go-contact" href="contact.php" title="contact"><span>Contact</span></a>
+		<span id="sales1">Toll Free Sales:</span><span id="sales2"> 800.555.7243</span>
+		<span id="support1">Toll Free Support:</span><span id="support2"> 800.555.7245</span>
 	</div> <!-- end div top-banner-date -->
 	
 

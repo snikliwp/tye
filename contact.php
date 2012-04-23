@@ -15,13 +15,13 @@ include "includes/theme_header.php"
 
  <div id="main">
  <div class="main">
- <h3>Flash Page - Main</h3>
+ <h3>Contact Page - Main</h3>
  </div>
  </div>
  
  <div id="right">
  <div class="right">
- <h2>Flash</h2>
+ <h2>Contact</h2>
  </div>
  </div>
 

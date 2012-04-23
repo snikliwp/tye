@@ -3,8 +3,9 @@
 
 /****************************************************************************************************/
 /* initialization */
-h3,
 p,
+h4,
+h5,
 html,
 body {
 	margin: 0px;
@@ -12,6 +13,47 @@ body {
 	border: 0px;
 	font-family:Verdana, Geneva, sans-serif;
 }
+
+h3,
+h2 {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#contact-form-h5 {
+	margin: 5px;
+	padding: 0px;
+	border: 0px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	
+	text-decoration: none;
+}
+
+h3 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+h4 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+h5 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+}
+
+
 
 
 
@@ -25,7 +67,7 @@ body {
 
 
 /****************************************************************************************************/
-/* CSS for navagation format */
+/* CSS for navagation  */
 nav {
 	padding-top: 5px;
 	margin-left: 90px;
@@ -78,10 +120,9 @@ nav a:hover {
 }
 
 /****************************************************************************************************/
-/* CSS for general Page format */
+/* CSS for general page  */
 html {
 	background-color: #ddd;
-	font: 1.5;
 }
 
 
@@ -89,7 +130,8 @@ html {
 html,
 body {
 	margin: 0; 
-	padding: 0 
+	padding: 0;
+	font-size: 12px;
 	}
 
 body {
@@ -102,40 +144,93 @@ body {
 
 }	
 
-#main {
-   background:#fff;
-   margin-right: 300px;
-   border:1px solid #000;
-   padding: 0px 5px;
+/****************************************************************************************************/
+/* CSS for home page  */
+
+#home-main {
+	background:#fff;
+	margin-right: 300px;
+	padding: 0px 5px;
  }
 
-
- #right {
-   position: absolute;
-   right:0px;
-   top:158px;
-   width:286px;
-   background:#fff;
-   border:1px solid #000;
-   padding: 0px 5px;
+#home-right {
+	position: absolute;
+	right:0px;
+	top:145px;
+	width:286px;
+	background:#fff;
+	padding: 0px 5px;
  }
 
+.home-main h2 {
+	text-align: center;
+	
+}
+.home-main-top {
+	background-color: #fff;
+	min-height: 100px;
+	width: 600px;
+}
 
+.home-main-middle {
+	background-color: #fff;
+	min-height: 100px;
+	position: relative;
+	width: 600px;
+}
 
+.home-main-middle-left {
+	position: absolute;
+	left: 0px;
+	background-color: #fff;
+	width: 198px;
+	min-height: 100px;
+}
 
+.home-main-middle-center {
+	background-color: #fff;
+	position: absolute;
+	left: 200px;
+	width: 198px;
+	min-height: 100px;
+	text-align: center;
+}
 
+.home-main-middle-right {
+	background-color: #fff;
+	width: 198px;
+	position: absolute;
+	left: 400px;
+	min-height: 100px;
+	margin-left: 10px;
+}
 
+.home-main-bottom {
+	position: absolute;
+	left: 0px;
+	top: 560px;
+	background-color: #eee;
+	min-height: 75px;
+	width: 600px;
+	border-left: solid;
+	border-left-width: 20px;
+	border-left-color: #aa0114;
+	
+}
 
+.home-main-bottom p{
+	font-size: 18px;
+	margin-left: 20px;
+	color: #aa0114;
+}
 
-
-
-
-
-
+.home-main-top p:first-child {
+	padding-top: 2em;
+}
 
 
 /****************************************************************************************************/
-/* CSS for header format */
+/* CSS for header  */
 
 
 .top-logo-logo {
@@ -158,13 +253,12 @@ body {
 .top-logo-slogan {
 	margin: 10px;
 	text-align: center;
-	
 }
 
 .top-logo-slogan h3 {
 	margin: 2x;
 	padding: 2px;
-	
+	font-family: Verdana;
 }
 
 h3 span {
@@ -173,27 +267,68 @@ h3 span {
 }
 
 .top-banner-date {
-	background: url(../images/header-Banner.png) left no-repeat;
 	margin-left: 10px;
 	font-size:8px;
 	font-weight: bolder;
-	min-height: 30px;
+	min-height: 20px;
+	vertical-align: middle;
+	padding-top: 10px;
 }
 
+#sales1 {
+	padding-left: 3em;
+}
+
+#sales2 {
+	color: #aa0114;
+}
+
+#support1 {
+	padding-left: 3em;
+}
+
+#support2 {
+	color: #aa0114;
+}
 
 /*.top-banner-date a:first-child {
 	background-image: url(../images/contact.png);
 	background-repeat: no-repeat;
 }
+*/#go-contact {
+	background-image: url(../images/contact.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -999em;
+	overflow: hidden;
+	width:21px;
+	height: 15px;
+	vertical-align: middle;
+	padding-right: 8em;
+}
 
-.top-banner-date a:last-child {
+#date {
+	padding-right: 8em;
+}
+/*.top-banner-date a:last-child {
 	background-image: url(../images/home.png);
 	background-repeat: no-repeat;
 }
+*/#go-home {
+	background-image: url(../images/home.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -999em;
+	overflow: hidden;
+	width:15px;
+	height: 15px;
+	vertical-align: middle;
+	padding-right: 3em;
+}
 
 .top-banner-date a span {
-	display: none;
-}*/
+/*	display: none;*/
+}
 
 nav ul {
 	margin:0 0 0 5px;
@@ -202,7 +337,7 @@ nav ul {
 
 
 /****************************************************************************************************/
-/* CSS for footer format */
+/* CSS for footer  */
 
 footer {
 	position: absolute;
@@ -213,60 +348,118 @@ footer {
 }
 
 /****************************************************************************************************/
-/* CSS for footer format */
+/* CSS for slides  */
 
 
 
+.slideshow-border{
+	border: 2px solid #aa0114;
+	width: 193px;
+	height: 200px;
+	margin: 0 0 1.3em;
+}
+	
+	
 .slideshow {
-  height: 206px;
-  margin: 0 0 1.3em;
-  overflow: hidden;
-  padding: 4px;
-  position: relative;
-
-  background-color: #fff;
-  border: 2px solid #aa0114;
-/*  border-top: 1px solid #edbb37;
-  -moz-box-shadow: 0 -1px 0 #eeecd4, 0 1px 0 #eeecd4;
-  -webkit-box-shadow: 0 -1px 0 #eeecd4, 0 1px 0 #eeecd4;
-  box-shadow: 0 -1px 0 #eeecd4, 0 1px 0 #eeecd4;
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);*/
+	width: 193px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	background-color: #fff;
 }
 
 .slides {
-  height: 202px;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  width: 20000em;
-
-/*  border-bottom: 1px solid #aa282c;
-  border-top: 1px solid #aa282c; */
+	height: 202px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 20000em;
 }
 
 .slide {
-  display: inline;
-  float: left;
-  height: 202px;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  width: 760px;
+	display: inline;
+	float: left;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 193px;
 }
 
 .slide .img {
-  width: 100%;
+	width: 100%;
 }
 
 
 
 
 /****************************************************************************************************/
-/* CSS for setup format */
+/* CSS for  Home page right side  */
+
+.home-right-top {
+	width: 280px;
+	margin-top: 13px;
+}
+
+.home-right-top-form {
+	margin: auto;
+	border: solid 2px #aa0114;
+	width: 185px;
+	background-color: #eee;
+}
+
+.home-right-top-form-data {
+	margin: 5px;
+}
+
+.home-right-top-form-data span{
+	color: #aa0114;
+}
+
+.home-right-top-form-data p{
+	font-weight: bold;
+	font-size: 11px;
+	margin: 4px 0;
+}
+button {
+	font-size:10px;
+}
+
+/****************************************************************************************************/
+/* CSS for all other pages  */
+
+#main {
+	background:#fff;
+/*	background:#0c0; */
+	margin-right: 310px;
+	padding: 0px;
+	height: 490px;
+	overflow: scroll;
+ }
+
+#right {
+	position: absolute;
+	right:0px;
+	top: 148px;
+	width:286px;
+	background:#fff;
+/*	background:#c0c; */
+	padding: 0px 5px;
+ }
+
+.main {
+	margin: 5px;
+}
+
+.right {
+	margin: 5px;
+}
+
+
+
+
+/****************************************************************************************************/
+/* CSS for setup  */
 
 
 /*html {background-color: #aaa;}

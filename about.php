@@ -14,12 +14,24 @@ include "includes/theme_header.php"
 ?>
 
  <div id="main">
- <h3>About Page - Main</h3>
- </div>
+ 	<div class="main">
+		 <h2>Our Employees</h2>
+		 <ul>
+			<li><a href="pwilkins.php"><span>President</span></a></li>
+			<li><a href="pwilkins.php"><span>Chief Financial Officer</span></a></li>
+			<li><a href="pwilkins.php"><span>Chief Developer</span></a></li>
+			<li><a href="pwilkins.php"><span>Director of Marketing</span></a></li>
+			<li><a href="pwilkins.php"><span>Director of Sales</span></a></li>
+			</ul>
+	</div> <!-- end of Class Main -->
+ </div> <!-- end of id Main -->
  
  <div id="right">
- <h2>About</h2>
- </div>
+	 <div class="right">
+		 <h2>About Us</h2>
+		 <p>Tye Consulting currently employs a wide range of talent including the President, the Chief Financial Officer, Chief Developer and Directors of Marketing and Sales. Click on the icon on the left to find out more about these roles within the company, and the person serving in that function.</p>
+	 </div><!-- end of Class Right -->
+ </div><!-- end of id Right -->
 
 
 
