@@ -1,6 +1,6 @@
 <?php
 /**
- * This file displays the tye Consulting Flash page
+ * This file displays the Tye Consulting Resource Pat Wilkins information
  *
  * @package:	Tye
  * @copyright:	March 2012 Pat Wilkins
@@ -101,16 +101,16 @@ include "includes/theme_header.php"
 <li>A wide variety of Managerial training.</li>
 </ul>
  
- </div>
- </div>
+ </div> <!-- end of Class Main -->
+ </div> <!-- end of id Main -->
  
  <div id="right">
 	 <div class="right">
-	 <h2>Pat Wilkins</h2>
-	<p>Senior System Engineer / Architect with broad MIS experience in both technical and management capacities. Has demonstrated skills in architecting and building web based portals and applications for wire-line and wireless customers. Effective use of business process analysis, System Engineering and Project Management skills allow him to deliver business-to-business and business-to-consumer “e” services that permit a quick return on investment.</p>
-	<p>Mr. Wilkins currently holds a Top Secret Clearance (PWGSC / DND).</p>
-	 </div>
- </div>
+		 <h2>Pat Wilkins</h2>
+		<p>Senior System Engineer / Architect with broad MIS experience in both technical and management capacities. Has demonstrated skills in architecting and building web based portals and applications for wire-line and wireless customers. Effective use of business process analysis, System Engineering and Project Management skills allow him to deliver business-to-business and business-to-consumer “e” services that permit a quick return on investment.</p>
+		<p>Mr. Wilkins currently holds a Top Secret Clearance (PWGSC / DND).</p>
+	 </div> <!-- end of Class right -->
+ </div> <!-- end of id right -->
 
 
 

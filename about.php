@@ -1,6 +1,6 @@
 <?php
 /**
- * This file displays the tye Consulting About page
+ * This file displays the Tye Consulting About page
  *
  * @package:	Tye
  * @copyright:	March 2012 Pat Wilkins

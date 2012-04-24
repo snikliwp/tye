@@ -1,6 +1,6 @@
 <?php
 /**
- * This file displays the tye Consulting Flash page
+ * This file displays the Tye Consulting Contact Information
  *
  * @package:	Tye
  * @copyright:	March 2012 Pat Wilkins
@@ -16,14 +16,14 @@ include "includes/theme_header.php"
  <div id="main">
  <div class="main">
  <h3>Contact Page - Main</h3>
- </div>
- </div>
+ </div> <!-- end class main -->
+ </div> <!-- end id main -->
  
  <div id="right">
  <div class="right">
  <h2>Contact</h2>
- </div>
- </div>
+ </div> <!-- end class right -->
+ </div> <!-- end id right -->
 
 
 

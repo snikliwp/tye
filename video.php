@@ -1,6 +1,6 @@
 <?php
 /**
- * This file displays the tye Consulting Video page
+ * This file displays the Tye Consulting Video page
  *
  * @package:	Tye
  * @copyright:	March 2012 Pat Wilkins
@@ -14,12 +14,16 @@ include "includes/theme_header.php"
 ?>
 
  <div id="main">
+ <div class="main">
  <h3>Video Page - Main</h3>
- </div>
+ </div> <!-- end class main -->
+ </div> <!-- end id main -->
  
  <div id="right">
+ <div class="right">
  <h2>Video</h2>
- </div>
+ </div> <!-- end class right -->
+ </div> <!-- end id right-->
 
 
 
